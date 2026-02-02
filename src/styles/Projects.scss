@@ -1,0 +1,30 @@
+.projects {
+  padding: 80px 40px;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 40px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+  }
+
+  .card {
+    background: #020617;
+    padding: 25px;
+    border-radius: 14px;
+    transition: 0.3s;
+
+    h3 {
+      color: #38bdf8;
+      margin-bottom: 10px;
+    }
+
+    &:hover {
+      transform: translateY(-10px);
+    }
+  }
+}

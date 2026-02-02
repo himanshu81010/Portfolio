@@ -1,0 +1,27 @@
+.skills {
+  padding: 80px 40px;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 40px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+  }
+
+  .card {
+    background: #020617;
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+
+    &:hover {
+      transform: translateY(-8px);
+      background: #020617;
+      border: 1px solid #38bdf8;
+    }
+  }
+}
